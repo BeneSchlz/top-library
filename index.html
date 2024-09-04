@@ -12,8 +12,12 @@
       <header>Library
         <button class="add-btn" id="add-btn">+</button>
       </header>
-      
+      <div class="modal hidden">
       <div class="add-book-form-container">
+        <div class="modal-header">
+          <p>Add Book</p>
+          <button class="close-btn">x</button>
+      </div>
       <form class="add-book-form">
         <div class="title-form">
           <label for="title">Title</label>
@@ -34,6 +38,8 @@
         <button id="form-add-book">Add Book</button>
     </form>
   </div>
+</div>
+<div class="overlay hidden" id="overlay"></div>
     <script src="./script.js"></script>
   </body>
 </html>
